@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascotas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="20dp"
+    card_view:contentPadding="5dp"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/perro1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/btnLike"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@mipmap/ic_hueso"
+            />
+
+        <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="@string/pnombre"
+        android:textSize="@dimen/letra"
+        android:layout_marginLeft="@dimen/espacio"
+        android:layout_gravity="center_vertical"
+
+
+        />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="170sp"
+
+            >
+
+            <TextView
+                android:id="@+id/tvPuntuacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ppuntuacion"
+                android:textSize="@dimen/letra"
+                android:layout_marginRight="@dimen/espacio"
+                android:layout_gravity="center_vertical"
+
+                />
+
+            <ImageView
+                android:id="@+id/imgHueso"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/hueso"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</android.support.v7.widget.CardView>

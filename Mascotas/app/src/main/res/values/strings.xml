@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="pnombre">Nombre</string>
+    <string name="ppuntuacion">0</string>
+</resources>
